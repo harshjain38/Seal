@@ -1,0 +1,13 @@
+.generate{
+    font-size: 0.9rem;
+    margin: 18px 18px 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    background-color: #2545d3;
+    cursor: pointer;
+  }
+  .generate:hover{
+    background-color: #3b58d6;
+  }

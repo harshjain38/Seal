@@ -1,0 +1,161 @@
+.main-trans{
+    width: 1220px;
+    padding: 5% 0;
+    margin: 0;
+  }
+
+  .hr1{
+    margin-bottom:20px;
+    border-top: none;
+    border-color: rgb(5, 5, 5);
+  }
+
+  .hr2{
+    margin: 25px 0;
+    border-top: none;
+    border-color: rgb(5, 5, 5);
+  }
+
+  .head1-trans{
+    color:white;
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+  .head2-trans{
+    color: #aea9b1;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+
+  .divcom{
+    display: flex;
+    margin-top: 45px;
+  }
+
+  .divright{
+    max-width: 900px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    flex:1;
+    background-color: #272627;
+  }
+  .dropdown{
+    margin: 10px 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color:#ffb22d;
+    cursor: pointer;
+  }
+  .dropdown:hover{
+    background-color:#f99e03;
+  }
+  option{ 
+    font-size: 1.15rem;
+    padding: 200px 0;
+    color: #fff;
+    background-color: #2b2e31;
+  }
+
+  .question{
+    color: #aea9b1;
+    font-size: 1.1rem;
+    margin: 12px 18px;
+  }
+  .inp-trans{
+    height: 1.3rem;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 17px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #424243;
+  }
+  .inp-trans:hover{
+    color: #0d0d0d  ;
+    background-color: #656464;
+  }
+  .generate{
+    font-size: 0.9rem;
+    margin: 18px 18px 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    background-color: #2545d3;
+    cursor: pointer;
+  }
+  .generate:hover{
+    background-color: #3b58d6;
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+  /* audio{
+    width: 73%;
+    position: fixed;
+    bottom: 3%;
+  } */
+
+  @media(max-width:480px) {
+    .main-trans{
+      width: 550px;
+    }
+    .header{
+      max-width: 500px;
+      margin-left: 130px;
+      margin-right: 50px;
+    }
+    .divcom{
+      display: flex;
+      flex-direction: column;
+      margin-left: 130px;
+      margin-right: 50px;
+      padding: 0;
+    }
+    .divright{
+      order: -1;
+      max-width: 500px;
+      margin: 0;
+      padding: 10px 20px 10px 0;
+    }
+}
+
+  @media(max-width:1000px) and (min-width:480px) {
+    .main-trans{
+      width: 800px;
+    }
+    .header{
+      max-width: 550px;
+      margin-left: 140px;
+    }
+    .divcom{
+      display: flex;
+      flex-direction: column;
+      margin-left: 140px;
+      padding: 0;
+    }
+    .divright{
+      order: -1;
+      width: 550px;
+      margin: 0;
+      padding: 10px 2px 10px 0;
+    }
+} 
+
+@media(max-width:1350px) and (min-width:1000px) {
+  .main-trans{
+    width: 900px;
+    padding: 5% 0;
+    margin: 0;
+  }
+} 

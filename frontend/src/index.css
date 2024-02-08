@@ -1,0 +1,36 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+
+    background-color: black;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%; 
+
+    :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #3e3d3d;
+    }
+    :hover::-moz-placeholder { /* Firefox 19+ */
+      color: #3e3d3d;
+    }
+    :hover:-ms-input-placeholder { /* IE 10+ */
+      color: #3e3d3d;
+    }
+    :hover:-moz-placeholder { /* Firefox 18- */
+      color: #3e3d3d;
+    }
+  }
+  
+  html, body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
